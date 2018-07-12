@@ -68,7 +68,7 @@ function getPics(query){
             var div = $("<div>").addClass("col-lg-3 col-md-6 my-2 p-2 border rounded col-sm-12")
             var text = $("<p>").attr("id", i+count).text("paused");
 
-            var image = $("<img>").attr("src", e.images.original_still.url).attr("data-still",e.images.original_still.url).attr("data-anim", e.images.original.url).attr("data-state","still").addClass("gif imgwidth").attr("style", "align-self: center;").attr("data-textid" ,i+count)
+            var image = $("<img>").attr("src", e.images.original_still.url).attr("data-still",e.images.original_still.url).attr("data-anim", e.images.original.url).attr("data-state","still").addClass("gif").attr("style", "align-self: center;").attr("data-textid" ,i+count)
             div.append(text,image)
             //var newDiv = $("<div>").addClass("col-lg-3 col-md-6 col-sm-12").append(image)
             $("#gif-holder").append(div);

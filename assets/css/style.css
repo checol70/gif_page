@@ -1,3 +1,13 @@
-.imgwidth{
+.gif{
     width:100%;
+}
+.gbtn{
+    color:white;
+    background-color:turquoise
+}
+.gbtn:hover{
+    color:orangered;
+}
+.bottom{
+    margin-bottom: 100px;
 }
