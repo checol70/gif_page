@@ -15,9 +15,8 @@
 .bottom{
     margin-bottom: 100px;
 }
-h1,h2,h3{
+.title{
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: white;
-
 }
